@@ -13,22 +13,18 @@ body {
   display: grid;
   place-content: center;
 }
-.container {
-  text-align: justify;
-}
-.container h1 {
+h1 {
   font-size: 6.5em;
   font-weight: 800;
-  letter-spacing: -2px;
   position: relative;
   color: transparent;
   padding: 30px;
-  background: linear-gradient(-4deg, transparent, transparent 25%, #a0ebcf, #014871, transparent 75%, transparent);
+  background: linear-gradient(-6deg, transparent, transparent 25%, #a0ebcf, #014871, transparent 75%, transparent);
   -webkit-background-clip: text;
   background-clip: text;
-  background-size: 100% 400%;
+  background-size: 100% 500%;
   background-position: center 0;
-  animation: textEffect 6s infinite linear alternate;
+  animation: textEffect 7s infinite linear;
 }
 @keyframes textEffect {
   100% {
